@@ -8,5 +8,7 @@ let () =
     ; v (info "aoc1s") Aoc1.cmd_s
     ; v (info "aoc2") Aoc2.cmd
     ; v (info "aoc2s") Aoc2.cmd_s
+    ; v (info "aoc3") Aoc3.cmd
+    ; v (info "aoc3s") Aoc3.cmds
     ]
   )
