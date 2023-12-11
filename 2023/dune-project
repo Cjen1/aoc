@@ -1,0 +1,23 @@
+(lang dune 3.5)
+(name aoc)
+(authors "Chris Jensen")
+
+(generate_opam_files true)
+
+(package
+  (name aoc)
+  (synopsis "aoc 2023")
+  (depends 
+    (ocaml (>= 5.0.0))
+    angstrom
+    cmdliner
+    iter
+    ppx_jane
+    ppx_log
+    base
+    core
+    core_unix
+    (eio (>= 0.11))
+    eio_main
+    async
+    ))

@@ -1,0 +1,5 @@
+(executables
+  (names day1 day2 day3 day4)
+  (libraries cmdliner angstrom iter fmt core async)
+  (preprocess (pps ppx_jane ppx_log))
+  )
